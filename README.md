@@ -1,4 +1,4 @@
-# Calculate inclination degree per basepair 
+# Calculate backbone-base inclination 
 
 This repository hosts the software employed in the following [publication](https://academic.oup.com/nar/article/35/19/6611/2402188) : 
  
@@ -81,22 +81,6 @@ $ cd run/
 $ ./run_inclination.sh  adh027s 7  P
 ```
 
-## Changes to the original code
-1. Installation
-- Repackaged directory
-- Improve original README
-- Use the free pascal compiler, available in common repositories `fpc`
-- Figure out to use the Objective Pascal `-Mobjfpc` flag to compile correctly
-
-2. Software
-- Introduce `string` primitive type instead of self-declared `string` type (deprecated)
-- Introduce `FileHandler` functionality with the `AssignFile` procedure
-- Close any open-ended comments (`pascal` comments are of the type `{...}`)
-- Solve type problems (`string`, `TextFile`)
-- Correctly format pascal code through `ptop`
-- Removed unnecessary `escape sequence` characters in `awk` files
-
-
 ## Disclaimer !
 
 I am not the original author of the code. The code belongs to the authors of the following publication : 
@@ -126,10 +110,26 @@ If you use this software, or any of its parts, please cite the following publica
 ### Authorisation
 The author of this repository has received formal approval from `prof. dr. M. Egli`, the corresponding author, to host the updated version of the code on GitHub!
 
+## Changes to the original code
+1. Installation
+- Repackaged directory
+- Improve original README
+- Use the free pascal compiler, available in common repositories `fpc`
+- Figure out to use the Objective Pascal `-Mobjfpc` flag to compile correctly
+
+2. Software
+- Introduce `string` primitive type instead of self-declared `string` type (deprecated)
+- Introduce `FileHandler` functionality with the `AssignFile` procedure
+- Close any open-ended comments (`pascal` comments are of the type `{...}`)
+- Solve type problems (`string`, `TextFile`)
+- Correctly format pascal code through `ptop`
+- Removed unnecessary `escape sequence` characters in `awk` files
+- Remove functions being passed as arguments and explicitly call the function inside a procedure
+
+
 ### Future updates (maybe)
 - Translated German to English
 - Convert `csh` to the more contemporary `bash`
-- Rewrite in Python (for fun)
 
 
 
