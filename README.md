@@ -145,3 +145,4 @@ $ ./compile.sh
 $ cd ../run/
 $ ./run_inclination.sh adh027s 7 P
 ```
+This change to the `LC_NUMERIC` variable is local and resets every time your close the environment.
