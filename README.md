@@ -1,4 +1,4 @@
-# Calculate backbone-base inclination 
+# AIDA 
 
 This repository hosts the software employed in the following [publication](https://academic.oup.com/nar/article/35/19/6611/2402188) : 
  
