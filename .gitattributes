@@ -1,0 +1,3 @@
+# https://github.com/github-linguist/linguist/blob/main/docs/overrides.md
+# Example of a `.gitattributes` file which reclassifies `.p` files as Pascal, instead of `OpenEdge ABL`:
+*.p linguist-language=Pascal
