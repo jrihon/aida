@@ -17,7 +17,7 @@ $ sudo apt install fpc csh
 - `csh 20110502-7`
 
 ## Software
-This repository has been succesfully installed on `Ubuntu20`, `Pop! OS 22` (which used Ubuntu22 at its core), `Ubuntu22` and `Ubuntu24`. Only tested in `Linux`.
+This repository has been successfully installed on `Ubuntu20`, `Pop! OS 22` (which used Ubuntu22 at its core), `Ubuntu22` and `Ubuntu24`. Only tested in `Linux`.
 
 ### Shell scripts
 
@@ -146,3 +146,7 @@ $ cd ../run/
 $ ./run_inclination.sh adh027s 7 P
 ```
 This change to the `LC_NUMERIC` variable is local and resets every time your close the environment.
+
+
+## License
+This repository is made public under the GPL v3 License. Additionally, this software is shared solely for research purposes and and cannot be used to develop a product or service that is meant to be sold commercially
