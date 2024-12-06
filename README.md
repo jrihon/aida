@@ -3,6 +3,12 @@
 This repository hosts the software employed in the following [publication](https://academic.oup.com/nar/article/35/19/6611/2402188) : 
  
 *Backbone-base inclination as a fundamental determinant of nucleic acid self- and cross-pairing* , by Pallan et al.
+
+## DISCLAIMER !
+
+A problem was discovered where several output parameters hold an incorrect sign.
+This problem will be looked into in the foreseeable future.
+
 ## Dependencies
 
 ```shell
